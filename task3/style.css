@@ -1,0 +1,32 @@
+#trafficLight {
+  width: 100px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#green {
+  top: 0;
+  background-color: green;
+}
+
+#yellow {
+  top: 100px;
+  background-color: yellow;
+}
+
+#red {
+  bottom: 0;
+  background-color: red;
+}
